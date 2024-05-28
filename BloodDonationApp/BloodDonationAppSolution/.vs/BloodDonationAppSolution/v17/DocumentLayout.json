@@ -1,174 +1,196 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\userregisterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\userregisterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\bloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\bloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\hospitalrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\hospitalrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\recipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\recipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\recipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\hospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\donorrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\donorrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\donorrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\bloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\bloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\userdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\userdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\context\\blooddonationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\context\\blooddonationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\iblooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\iblooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\userdetailrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\userdetailrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\ibloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\ibloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\idonorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\idonorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\userrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\userrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\irecipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\irecipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userregisterreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userregisterreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\blooddonationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\blooddonationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\iuserregisterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\iuserregisterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051649_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BloodDonationApp\\Migrations\\20240528051649_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BloodDonationApp\\Migrations\\20240528051432_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BloodDonationApp\\Migrations\\20240528051031_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\iblooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\iblooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\ibloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\ibloodstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\irecipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\irecipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\service\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\context\\blooddonationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\context\\blooddonationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\service\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\service\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\registerreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\registerreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userregisterreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userregisterreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\day_31_3\\blooddonationappsolution\\blooddonationapp\\interfaces\\idonorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\interfaces\\idonorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\models\\dtos\\userregisterrepositorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\models\\dtos\\userregisterrepositorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\hospitalrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\hospitalrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\userdetailrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\userdetailrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\duplicateuserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\exceptions\\repositoryexception\\userrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\exceptions\\repositoryexception\\userrepositoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\blooddonationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\blooddonationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\migrations\\20240528051649_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\migrations\\20240528051649_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\miniproject\\blooddonationapp\\blooddonationappsolution\\blooddonationapp\\migrations\\20240528105159_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{592F28FC-5B11-44EC-9F9E-9840B7D94DB3}|BloodDonationApp\\BloodDonationApp.csproj|solutionrelative:blooddonationapp\\migrations\\20240528105159_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,150 +200,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BloodDonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodDonationRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\BloodDonationRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodDonationRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\BloodDonationRepository.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwBQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:42:58.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BloodStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodStockRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\BloodStockRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodStockRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\BloodStockRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:40:46.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HospitalRepositoryException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
-              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:40:04.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HospitalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\HospitalRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\HospitalRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\HospitalRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\HospitalRepository.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAowAQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:37:30.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RecipientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\RecipientRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\RecipientRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\RecipientRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\RecipientRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:34:31.838Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BloodDonation.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodDonation.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\BloodDonation.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodDonation.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\BloodDonation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "BloodStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodStockRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\BloodStockRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodStockRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\BloodStockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:41:37.423Z",
+              "WhenOpened": "2024-05-28T06:40:46.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "DonorRepositorycs.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\DonorRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\DonorRepositorycs.cs",
               "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\DonorRepositorycs.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\DonorRepositorycs.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\DonorRepositorycs.cs",
               "RelativeToolTip": "BloodDonationApp\\Repository\\DonorRepositorycs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T06:32:15.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Recipient.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Recipient.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Recipient.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Recipient.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\Recipient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "HospitalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\HospitalRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\HospitalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\HospitalRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\HospitalRepository.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAkwAQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:40:55.077Z",
+              "WhenOpened": "2024-05-28T06:37:30.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BloodStock.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodStock.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\BloodStock.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodStock.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\BloodStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "RecipientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\RecipientRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\RecipientRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\RecipientRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\RecipientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:45:10.321Z",
+              "WhenOpened": "2024-05-28T06:34:31.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Donor.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Donor.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Donor.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Donor.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\Donor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserRegisterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRegisterRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\UserRegisterRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRegisterRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\UserRegisterRepository.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAhwE0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:40:03.899Z",
+              "WhenOpened": "2024-05-28T09:11:21.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BloodDonationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodDonationRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\BloodDonationRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\BloodDonationRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\BloodDonationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:42:58.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:49:28.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBloodDonationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IBloodDonationRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IBloodDonationRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IBloodDonationRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IBloodDonationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:51:16.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IBloodStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IBloodStockRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IBloodStockRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IBloodStockRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IBloodStockRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:52:08.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDonorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IDonorRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IDonorRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IDonorRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IDonorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:50:00.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IHospitalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IHospitalRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IHospitalRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IHospitalRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IHospitalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IHospitalRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IHospitalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IHospitalRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IHospitalRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:51:40.432Z",
@@ -329,25 +351,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Hospital.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Hospital.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Hospital.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Hospital.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\Hospital.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "IRecipientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IRecipientRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IRecipientRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IRecipientRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IRecipientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:42:44.498Z",
+              "WhenOpened": "2024-05-24T06:50:50.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T06:46:15.243Z",
@@ -356,378 +378,429 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserDetailRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\UserDetailRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserDetailRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\UserDetailRepository.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAswHsAAAAAAAAA",
+              "Title": "IUserRegisterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IUserRegisterRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IUserRegisterRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IUserRegisterRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IUserRegisterRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:26:14.172Z",
+              "WhenOpened": "2024-05-28T08:56:48.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "BloodDonationContext.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Context\\BloodDonationContext.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Context\\BloodDonationContext.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Context\\BloodDonationContext.cs",
-              "RelativeToolTip": "BloodDonationApp\\Context\\BloodDonationContext.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAoAAAAwAAAA",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:51:28.709Z",
+              "WhenOpened": "2024-05-28T08:51:32.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "UserDetail.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserDetail.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\UserDetail.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserDetail.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\UserDetail.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:39:18.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserDetailRepositoryException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
-              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:29:41.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:54:00.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DuplicateUserException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
-              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:21:29.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserRepositoryException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
-              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T06:21:07.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Service\\UserService.cs",
-              "RelativeToolTip": "BloodDonationApp\\Service\\UserService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAFYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:34:16.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserRegisterReturnDTO.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:30:13.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\User.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\User.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwA8AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:39:28.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserRole.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:45:56.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BloodDonationApp.csproj",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\BloodDonationApp.csproj",
-              "RelativeDocumentMoniker": "BloodDonationApp\\BloodDonationApp.csproj",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\BloodDonationApp.csproj",
-              "RelativeToolTip": "BloodDonationApp\\BloodDonationApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-23T16:31:54.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserRegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:29:00.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ErrorModel.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:30:46.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LoginReturnDTO.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:50:38.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserLoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:45:35.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:27:26.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T04:28:19.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20240528051649_intial.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051649_intial.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Migrations\\20240528051649_intial.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051649_intial.cs",
-              "RelativeToolTip": "BloodDonationApp\\Migrations\\20240528051649_intial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:16:49.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\appsettings.json",
-              "RelativeDocumentMoniker": "BloodDonationApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\appsettings.json",
-              "RelativeToolTip": "BloodDonationApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-28T05:04:05.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20240528051432_f.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Migrations\\20240528051432_f.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
-              "RelativeToolTip": "BloodDonationApp\\Migrations\\20240528051432_f.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:14:32.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20240528051031_first.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Migrations\\20240528051031_first.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
-              "RelativeToolTip": "BloodDonationApp\\Migrations\\20240528051031_first.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T05:10:31.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Program.cs",
               "RelativeDocumentMoniker": "BloodDonationApp\\Program.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Program.cs",
               "RelativeToolTip": "BloodDonationApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T05:04:02.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IAdminRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IAdminRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IAdminRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IAdminRepository.cs",
+              "DocumentIndex": 16,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\TokenService.cs",
+              "RelativeToolTip": "BloodDonationApp\\Service\\TokenService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:57:20.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\UserService.cs",
+              "RelativeToolTip": "BloodDonationApp\\Service\\UserService.cs",
+              "ViewState": "AQIAAB8BAAAAAAAAAAAiwDcCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:04:38.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\User.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:39:28.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BloodDonationApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAADwv28AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:58:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240528105159_Second.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528105159_Second.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Migrations\\20240528105159_Second.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528105159_Second.cs",
+              "RelativeToolTip": "BloodDonationApp\\Migrations\\20240528105159_Second.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:49:28.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T10:52:00.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BloodDonationContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Context\\BloodDonationContext.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Context\\BloodDonationContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Context\\BloodDonationContext.cs",
+              "RelativeToolTip": "BloodDonationApp\\Context\\BloodDonationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:51:28.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Recipient.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Recipient.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Recipient.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Recipient.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\Recipient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:40:55.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Donor.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Donor.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\Donor.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:40:03.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Service\\interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\interfaces\\IUserService.cs",
+              "RelativeToolTip": "BloodDonationApp\\Service\\interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:28:19.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\UserRole.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:45:56.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\RegisterReturnDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\RegisterReturnDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\RegisterReturnDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\RegisterReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:39:09.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRegisterReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserRegisterReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:30:13.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Service\\interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Service\\interfaces\\ITokenService.cs",
+              "RelativeToolTip": "BloodDonationApp\\Service\\interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:27:26.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:50:38.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "BloodDonationApp\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T06:54:00.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserRegisterDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:29:00.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Hospital.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Hospital.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Hospital.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\Hospital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:42:44.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BloodStock.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodStock.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\BloodStock.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodStock.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\BloodStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:45:10.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BloodDonation.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodDonation.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\BloodDonation.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\BloodDonation.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\BloodDonation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:41:37.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Admin.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:44:13.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:30:46.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:45:35.702Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "IBloodDonationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IBloodDonationRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IBloodDonationRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IBloodDonationRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IBloodDonationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserRegisterRepositoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterRepositoryDTO.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\DTOs\\UserRegisterRepositoryDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Models\\DTOs\\UserRegisterRepositoryDTO.cs",
+              "RelativeToolTip": "BloodDonationApp\\Models\\DTOs\\UserRegisterRepositoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:51:16.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T08:37:25.486Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "IBloodStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IBloodStockRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IBloodStockRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IBloodStockRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IBloodStockRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "HospitalRepositoryException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
+              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\HospitalRepositoryException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:52:08.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T06:40:04.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "IRecipientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IRecipientRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IRecipientRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IRecipientRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IRecipientRepository.cs",
+              "Title": "UserDetailRepositoryException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
+              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\UserDetailRepositoryException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:50:50.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T06:29:41.875Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Models\\Admin.cs",
-              "RelativeToolTip": "BloodDonationApp\\Models\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Title": "DuplicateUserException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
+              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\DuplicateUserException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T16:44:13.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T06:21:29.403Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "IDonorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IDonorRepository.cs",
-              "RelativeDocumentMoniker": "BloodDonationApp\\Interfaces\\IDonorRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Interfaces\\IDonorRepository.cs",
-              "RelativeToolTip": "BloodDonationApp\\Interfaces\\IDonorRepository.cs",
+              "Title": "UserRepositoryException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
+              "RelativeToolTip": "BloodDonationApp\\Exceptions\\RepositoryException\\UserRepositoryException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T06:21:07.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BloodDonationApp.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\BloodDonationApp.csproj",
+              "RelativeDocumentMoniker": "BloodDonationApp\\BloodDonationApp.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\BloodDonationApp.csproj",
+              "RelativeToolTip": "BloodDonationApp\\BloodDonationApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T16:31:54.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240528051649_intial.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051649_intial.cs",
+              "RelativeDocumentMoniker": "BloodDonationApp\\Migrations\\20240528051649_intial.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051649_intial.cs",
+              "RelativeToolTip": "BloodDonationApp\\Migrations\\20240528051649_intial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T06:50:00.864Z"
+              "WhenOpened": "2024-05-28T05:16:49.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BloodDonationApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\BloodDonationApp\\BloodDonationAppSolution\\BloodDonationApp\\appsettings.json",
+              "RelativeToolTip": "BloodDonationApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T05:04:05.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240528051432_f.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
+              "RelativeDocumentMoniker": "..\\..\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
+              "RelativeToolTip": "..\\..\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051432_f.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T05:14:32.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240528051031_first.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
+              "RelativeDocumentMoniker": "..\\..\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\MiniProject\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
+              "RelativeToolTip": "..\\..\\Day_31_3\\BloodDonationAppSolution\\BloodDonationApp\\Migrations\\20240528051031_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T05:10:31.678Z"
             }
           ]
         }

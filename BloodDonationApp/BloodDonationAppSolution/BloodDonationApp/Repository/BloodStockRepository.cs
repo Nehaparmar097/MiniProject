@@ -1,8 +1,8 @@
 ﻿using BloodDonationApp.Context;
-using BloodDonationApp.Interfaces;
 using BloodDonationApp.Models;
 using Microsoft.EntityFrameworkCore;
 using BloodDonationApp.Exceptions.RepositoryException;
+using BloodDonationApp.Repository.Interfaces;
 
 namespace BloodDonationApp.Repository
 {

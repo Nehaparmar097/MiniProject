@@ -6,7 +6,7 @@ namespace BloodDonationApp.Context
     public class BloodDonationContext : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<UserDetail> UserDetails { get; set; }
+        //public DbSet<UserDetail> UserDetails { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Donor> Donors { get; set; }
         public DbSet<Recipient> Recipients { get; set; }

@@ -1,12 +1,12 @@
 ﻿using BloodDonationApp.Context;
-using BloodDonationApp.Interfaces;
 using BloodDonationApp.Models;
 using Microsoft.EntityFrameworkCore;
 using BloodDonationApp.Exceptions.RepositoryException;
+using BloodDonationApp.Repository.Interfaces;
 
 namespace BloodDonationApp.Repository
 {
-    public class RecipientRepository : IReposiroty<int, Recipient>
+    public class RecipientRepository : IRecipientRepository
     {
         private readonly BloodDonationContext _context;
 
@@ -15,91 +15,16 @@ namespace BloodDonationApp.Repository
             _context = context;
         }
 
-        public async Task<Recipient> Add(Recipient item)
+        public async Task<Recipient> GetRecipientByEmail(string email)
         {
-            try
+            var recipient = await _context.Recipients
+                    .FirstOrDefaultAsync(r => r.Email == email);
+            if (recipient == null)
             {
-                _context.Add(item);
-                await _context.SaveChangesAsync();
-                return item;
+                throw new RecipientNotFoundException("Recipient not found.");
             }
-            catch (Exception ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while adding recipient: " + ex.Message, ex);
-            }
-        }
-
-        public async Task<Recipient> DeleteByKey(int key)
-        {
-            try
-            {
-                var recipient = await GetByKey(key);
-                _context.Remove(recipient);
-                await _context.SaveChangesAsync(true);
-                return recipient;
-            }
-            catch (NotPresentException ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while deleting recipient: " + ex.Message, ex);
-            }
-            catch (Exception ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while deleting recipient: " + ex.Message, ex);
-            }
-        }
-
-        public async Task<IEnumerable<Recipient>> GetAll()
-        {
-            try
-            {
-                var recipients = await _context.Recipients.ToListAsync();
-                if (recipients.Count <= 0)
-                {
-                    throw new NotPresentException("There are no recipients present.");
-                }
-                return recipients;
-            }
-            catch (NotPresentException ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while retrieving recipients: " + ex.Message, ex);
-            }
-            catch (Exception ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while retrieving recipients: " + ex.Message, ex);
-            }
-        }
-
-        public async Task<Recipient> GetByKey(int key)
-        {
-            try
-            {
-                var recipient = await _context.Recipients.FirstOrDefaultAsync(r => r.RecipientId == key);
-                if (recipient == null)
-                    throw new NotPresentException("No such recipient is present.");
-                return recipient;
-            }
-            catch (NotPresentException ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while retrieving recipient: " + ex.Message, ex);
-            }
-            catch (Exception ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while retrieving recipient: " + ex.Message, ex);
-            }
-        }
-
-        public async Task<Recipient> Update(Recipient item)
-        {
-            try
-            {
-                _context.Entry(item).State = EntityState.Modified;
-                await _context.SaveChangesAsync(true);
-                return item;
-            }
-            catch (Exception ex)
-            {
-                throw new RecipientRepositoryException("Error occurred while updating recipient: " + ex.Message, ex);
-            }
+            return recipient;
         }
     }
+    
 }

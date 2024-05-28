@@ -1,4 +1,4 @@
-﻿namespace BloodDonationApp.Interfaces
+﻿namespace BloodDonationApp.Repository.Interfaces
 {
     public interface IHospitalRepository
     {

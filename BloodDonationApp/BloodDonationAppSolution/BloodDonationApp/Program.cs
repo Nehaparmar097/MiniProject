@@ -1,4 +1,10 @@
 using BloodDonationApp.Context;
+
+using BloodDonationApp.Models;
+using BloodDonationApp.Repository;
+using BloodDonationApp.Repository.Interfaces;
+using BloodDonationApp.Service;
+using BloodDonationApp.Service.interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -35,6 +41,20 @@ namespace BloodDonationApp
                 options => options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
                 );
             #endregion
+            #region Repositories
+
+            builder.Services.AddScoped<IRecipientRepository, RecipientRepository>();
+            builder.Services.AddScoped<IDonorRepository, DonorRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserRegisterRepository, UserRegisterRepository>();
+
+
+            #endregion
+            #region
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ITokenService, TokenService>();
+            #endregion
+
 
 
 

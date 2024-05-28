@@ -1,10 +1,22 @@
-﻿namespace BloodDonationApp.Models.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BloodDonationApp.Models.DTOs
 {
     public class UserRegisterDTO
     {
+        [Required]
         public string Name { get; set; }
+
+        [Required]
         public string Email { get; set; }
-        public string? Phone { get; set; }
-        public string password { get; set; }
+
+        [Required]
+        public string Phone { get; set; }
+
+        [Required]
+        public string Password { get; set; }
+
+        [Required]
+        public string ConfirmPassword { get; set; }
     }
 }

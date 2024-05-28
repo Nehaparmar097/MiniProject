@@ -1,6 +1,6 @@
 ﻿using BloodDonationApp.Models;
 
-namespace BloodDonationApp.Interfaces
+namespace BloodDonationApp.Service.interfaces
 {
     public interface ITokenService
     {
