@@ -1,0 +1,925 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205627_Intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Job_Portal_API\\Migrations\\20240529205627_Intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\BloodDonationApp.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\blooddonationapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\BloodDonationApp.csproj|solutionrelative:job_portal_api\\blooddonationapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\context\\blooddonationappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\context\\blooddonationappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205225_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Job_Portal_API\\Migrations\\20240529205225_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\repositories\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\repositories\\blooddonationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\services\\recipientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\services\\recipientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\services\\bloodstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\services\\bloodstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\services\\blooddonationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\services\\blooddonationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\repositories\\recipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\repositories\\recipientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\repositories\\recipientbloodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\repositories\\recipientbloodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\repositories\\donorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\repositories\\donorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\recipientblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\recipientblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\recipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\donorblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\donorblood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\bloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\blooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\enums\\blood_type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\enums\\blood_type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\returnuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\returnuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\returndonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\returndonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\recipientresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\recipientresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\recipientbloodresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\recipientbloodresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\recipientblooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\recipientblooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\donorblooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\donorblooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\bloodstockresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\bloodstockresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\bloodstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\bloodstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\blooddonationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\blooddonationstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\blooddonationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\blooddonationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\models\\dtos\\adddonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\models\\dtos\\adddonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\irecipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\irecipient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\irangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\irangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\idonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\idonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\ibloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\ibloodstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\interfaces\\iblooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\interfaces\\iblooddonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\recipinetbloodnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\recipinetbloodnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\recipientnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\recipientnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\invalidbloodtypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\invalidbloodtypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\bloodstocknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\bloodstocknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\blooddonationnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\blooddonationnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\exceptions\\blooddonationalreadyexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\exceptions\\blooddonationalreadyexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\controllers\\recipientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\controllers\\recipientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\controllers\\bloodstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\controllers\\bloodstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|c:\\users\\vc\\desktop\\nonstop\\presidio_mini_project\\job_portal_api\\job_portal_api\\controllers\\blooddonationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C0C8BB5-98B0-49F1-A76D-966D973B7FE5}|Job_Portal_API\\Job_Portal_API.csproj|solutionrelative:job_portal_api\\controllers\\blooddonationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240529205627_Intial.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205627_Intial.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Migrations\\20240529205627_Intial.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205627_Intial.cs",
+              "RelativeToolTip": "Job_Portal_API\\Migrations\\20240529205627_Intial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:56:27.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240529205225_intial.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205225_intial.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Migrations\\20240529205225_intial.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Migrations\\20240529205225_intial.cs",
+              "RelativeToolTip": "Job_Portal_API\\Migrations\\20240529205225_intial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:52:26.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BloodStockService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\BloodStockService.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Services\\BloodStockService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\BloodStockService.cs",
+              "RelativeToolTip": "Job_Portal_API\\Services\\BloodStockService.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAADwvxoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T09:17:35.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecipientService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\RecipientService.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Services\\RecipientService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\RecipientService.cs",
+              "RelativeToolTip": "Job_Portal_API\\Services\\RecipientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:59:06.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Program.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Program.cs",
+              "RelativeToolTip": "Job_Portal_API\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:16:00.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BloodDonationAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Context\\BloodDonationAppContext.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Context\\BloodDonationAppContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Context\\BloodDonationAppContext.cs",
+              "RelativeToolTip": "Job_Portal_API\\Context\\BloodDonationAppContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:59:01.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BloodDonationApp.http",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\BloodDonationApp.http",
+              "RelativeDocumentMoniker": "Job_Portal_API\\BloodDonationApp.http",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\BloodDonationApp.http",
+              "RelativeToolTip": "Job_Portal_API\\BloodDonationApp.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-29T20:44:56.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Repositories\\ApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\ApplicationRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Repositories\\ApplicationRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:42:06.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Job_Portal_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\appsettings.json",
+              "RelativeToolTip": "Job_Portal_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T20:49:37.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\DonorService.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Services\\DonorService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\DonorService.cs",
+              "RelativeToolTip": "Job_Portal_API\\Services\\DonorService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADgvyIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:32:30.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BloodDonationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\BloodDonationRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Repositories\\BloodDonationRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\BloodDonationRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Repositories\\BloodDonationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T10:36:45.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BloodDonationService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\BloodDonationService.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Services\\BloodDonationService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\BloodDonationService.cs",
+              "RelativeToolTip": "Job_Portal_API\\Services\\BloodDonationService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:16:09.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\RecipientRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Repositories\\RecipientRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\RecipientRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Repositories\\RecipientRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAEwCAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:06:21.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RecipientBloodRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\RecipientBloodRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Repositories\\RecipientBloodRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\RecipientBloodRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Repositories\\RecipientBloodRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:30:31.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Services\\UserService.cs",
+              "RelativeToolTip": "Job_Portal_API\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:16:07.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DonorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\DonorRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Repositories\\DonorRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Repositories\\DonorRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Repositories\\DonorRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:57:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\User.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:33:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecipientBlood.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\RecipientBlood.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\RecipientBlood.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\RecipientBlood.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\RecipientBlood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:23:51.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Recipient.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Recipient.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\Recipient.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Recipient.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\Recipient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:54:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DonorBlood.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DonorBlood.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DonorBlood.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DonorBlood.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DonorBlood.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:33:38.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\Donor.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Donor.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\Donor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:29:54.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BloodStock.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\BloodStock.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\BloodStock.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\BloodStock.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\BloodStock.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T10:38:09.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BloodDonation.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\BloodDonation.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\BloodDonation.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\BloodDonation.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\BloodDonation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:05:26.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Enums\\UserType.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\Enums\\UserType.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Enums\\UserType.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\Enums\\UserType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:35:07.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Blood_Type.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Enums\\Blood_Type.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\Enums\\Blood_Type.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\Enums\\Blood_Type.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\Enums\\Blood_Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:28:04.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReturnUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\ReturnUserDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\ReturnUserDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\ReturnUserDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\ReturnUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:42:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ReturnDonorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\ReturnDonorDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\ReturnDonorDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\ReturnDonorDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\ReturnDonorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:42:52.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RecipientResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientResponseDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\RecipientResponseDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientResponseDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\RecipientResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:59:59.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RecipientBloodResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientBloodResponseDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\RecipientBloodResponseDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientBloodResponseDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\RecipientBloodResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:48:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RecipientBloodDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientBloodDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\RecipientBloodDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\RecipientBloodDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\RecipientBloodDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:53:57.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DonorBloodDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\DonorBloodDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\DonorBloodDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\DonorBloodDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\DonorBloodDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:49:45.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BloodStockResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodStockResponseDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\BloodStockResponseDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodStockResponseDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\BloodStockResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T10:08:27.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BloodStockDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodStockDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\BloodStockDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodStockDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\BloodStockDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:49:23.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BloodDonationStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodDonationStatusDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\BloodDonationStatusDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodDonationStatusDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\BloodDonationStatusDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:35:24.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BloodDonationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodDonationResponseDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\BloodDonationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\BloodDonationResponseDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\BloodDonationResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:50:56.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddDonorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\AddDonorDTO.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Models\\DTOs\\AddDonorDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Models\\DTOs\\AddDonorDTO.cs",
+              "RelativeToolTip": "Job_Portal_API\\Models\\DTOs\\AddDonorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:49:20.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T10:54:41.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRecipient.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IRecipient.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IRecipient.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IRecipient.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IRecipient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:59:11.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IRangeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IRangeRepository.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IRangeRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IRangeRepository.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IRangeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:07:59.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IDonor.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IDonor.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IDonor.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IDonor.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IDonor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:53:38.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBloodStock.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IBloodStock.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IBloodStock.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IBloodStock.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IBloodStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T09:16:27.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IBloodDonation.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IBloodDonation.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Interfaces\\IBloodDonation.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Interfaces\\IBloodDonation.cs",
+              "RelativeToolTip": "Job_Portal_API\\Interfaces\\IBloodDonation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T09:16:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RecipinetBloodNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\RecipinetBloodNotFoundException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\RecipinetBloodNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\RecipinetBloodNotFoundException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\RecipinetBloodNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:31:22.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RecipientNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\RecipientNotFoundException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\RecipientNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\RecipientNotFoundException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\RecipientNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:21:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "InvalidBloodTypeException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\InvalidBloodTypeException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\InvalidBloodTypeException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\InvalidBloodTypeException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\InvalidBloodTypeException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T11:18:04.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BloodStockNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodStockNotFoundException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\BloodStockNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodStockNotFoundException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\BloodStockNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:18:10.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BloodDonationNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodDonationNotFoundException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\BloodDonationNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodDonationNotFoundException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\BloodDonationNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T19:14:32.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BloodDonationAlreadyExistException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodDonationAlreadyExistException.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Exceptions\\BloodDonationAlreadyExistException.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Exceptions\\BloodDonationAlreadyExistException.cs",
+              "RelativeToolTip": "Job_Portal_API\\Exceptions\\BloodDonationAlreadyExistException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:06:11.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Job_Portal_API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:15:15.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RecipientController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\RecipientController.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Controllers\\RecipientController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\RecipientController.cs",
+              "RelativeToolTip": "Job_Portal_API\\Controllers\\RecipientController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA1wC8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:20:31.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Controllers\\DonorController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "Job_Portal_API\\Controllers\\DonorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:19:55.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BloodStockController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\BloodStockController.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Controllers\\BloodStockController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\BloodStockController.cs",
+              "RelativeToolTip": "Job_Portal_API\\Controllers\\BloodStockController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T09:19:23.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "BloodDonationController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\BloodDonationController.cs",
+              "RelativeDocumentMoniker": "Job_Portal_API\\Controllers\\BloodDonationController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\nonstop\\Presidio_Mini_Project\\Job_Portal_API\\Job_Portal_API\\Controllers\\BloodDonationController.cs",
+              "RelativeToolTip": "Job_Portal_API\\Controllers\\BloodDonationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:18:16.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
