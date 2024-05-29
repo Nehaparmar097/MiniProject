@@ -8,7 +8,7 @@
         public DateTime DonationDate { get; set; }=DateTime.Now;
        
         public string Status { get; set; }  
-        // Navigation properties
+        // all Navigation properties
         public BloodStock BloodStock { get; set; }
         public Recipient Recipient { get; set; }
     }
