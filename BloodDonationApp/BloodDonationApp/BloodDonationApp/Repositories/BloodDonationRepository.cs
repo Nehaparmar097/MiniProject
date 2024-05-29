@@ -32,6 +32,7 @@ namespace Job_Portal_API.Repositories
             //    skill.JobID = result.JobID;
             //    await _context.DonorBlood.AddAsync(skill);
             //    await _context.SaveChangesAsync();
+            //
             //}
             return result;
            
