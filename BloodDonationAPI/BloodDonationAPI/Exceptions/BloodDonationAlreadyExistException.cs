@@ -1,5 +1,5 @@
 ﻿using System.Runtime.Serialization;
-
+//exeptions
 namespace Job_Portal_API.Exceptions
 {
     [Serializable]
