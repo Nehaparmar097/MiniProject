@@ -1,4 +1,10 @@
-﻿using Job_Portal_API.Context;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Job_Portal_API.Context;
 using Job_Portal_API.Exceptions;
 using Job_Portal_API.Models;
 using Job_Portal_API.Repositories;
@@ -35,7 +41,7 @@ namespace JobPortalAPITest.RepositoryTests
             {
                 UserID = 1,
                 Age = 30,
-                User = new User { Email = "newdonor@example.com"}
+                User = new User { Email = "newdonor@example.com" }
             };
 
             // Act
@@ -54,7 +60,7 @@ namespace JobPortalAPITest.RepositoryTests
             {
                 UserID = 1,
                 Age = 30,
-                User = new User { Email = "existingdonor@example.com"}
+                User = new User { Email = "existingdonor@example.com" }
             };
 
             // Seed the database with the existing donor
@@ -84,7 +90,7 @@ namespace JobPortalAPITest.RepositoryTests
             };
 
             var addedDonor = await _donorRepository.Add(existingDonor);
-          //  addedDonor.User.Name = "Updated Donor";
+            //  addedDonor.User.Name = "Updated Donor";
 
             // Act
             var result = await _donorRepository.Update(addedDonor);
@@ -100,10 +106,10 @@ namespace JobPortalAPITest.RepositoryTests
             // Arrange
             var nonExistentDonor = new Donor
             {
-                DonorID = 999, // Assuming this donor does not exist
+                DonorID = 999, 
                 UserID = 999,
                 Age = 30,
-                User = new User { Email = "nonexistentdonor@example.com"}
+                User = new User { Email = "nonexistentdonor@example.com" }
             };
 
             // Act & Assert
@@ -149,7 +155,7 @@ namespace JobPortalAPITest.RepositoryTests
             {
                 UserID = 1,
                 Age = 30,
-                User = new User { Email = "getdonor@example.com"}
+                User = new User { Email = "getdonor@example.com" }
             };
 
             var addedDonor = await _donorRepository.Add(existingDonor);
