@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Get Blood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* CSS styles */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .loading {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .details {
+      margin-top: 20px;
+      font-size: 1.1em;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Get Blood</h1>
+    <button class="btn" onclick="donateBlood()">Get Blood</button>
+    <p id="status" class="loading" style="display: none;">Processing your request...</p>
+    <div id="details" class="details" style="display: none;"></div>
+  </div>
+
+  <!-- Axios for making HTTP requests -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+  <script>
+    // JavaScript function to handle blood donation
+    function donateBlood() {
+      // Prompt the user to enter their Recipient ID
+      const recipientId = prompt('Please enter your Recipient ID:');
+
+      // Check if the user entered a Recipient ID
+      if (!recipientId) {
+        alert('Recipient ID is required to proceed.');
+        return;
+      }
+
+      // Confirm the donation action with the user
+      const confirmDonation = confirm('Do you really need the blood donation?');
+      if (!confirmDonation) return;
+
+      const apiUrl = 'http://localhost:5190/api/BloodDonation/donate';
+
+      // Show loading status
+      document.getElementById('status').style.display = 'block';
+      document.getElementById('status').textContent = 'Processing your request...';
+
+      // Hide previous details
+      document.getElementById('details').style.display = 'none';
+      document.getElementById('details').textContent = '';
+
+      // Make API request to donate blood
+      axios.post(`${apiUrl}?recipientId=${recipientId}`)
+        .then(response => {
+          console.log(response.data);
+          const data = response.data;
+
+          // Display success message and details
+          document.getElementById('status').textContent = 'Blood donation processed successfully.';
+
+          // Assuming the response contains relevant details
+          const nextDay = new Date();
+          nextDay.setDate(nextDay.getDate() + 1);
+          const nextDayStr = nextDay.toLocaleString();
+
+          const detailsHTML = `
+            <p>Blood Type: ${data.bloodType}</p>
+            <p>Donation Date: ${nextDayStr}</p>
+            <p>City: ${data.city}</p>
+            <p>Hospital: ${data.hospital}</p>
+            <p>State: ${data.state}</p>
+          `;
+
+          document.getElementById('details').innerHTML = detailsHTML;
+          document.getElementById('details').style.display = 'block';
+        })
+        .catch(error => {
+          console.error('Error processing blood donation:', error);
+          document.getElementById('status').textContent = 'Failed to process blood donation. Please try again later.';
+        })
+        .finally(() => {
+          // Hide loading status after 3 seconds
+          setTimeout(() => {
+            document.getElementById('status').style.display = 'none';
+          }, 3000);
+        });
+    }
+  </script>
+</body>
+
+</html>

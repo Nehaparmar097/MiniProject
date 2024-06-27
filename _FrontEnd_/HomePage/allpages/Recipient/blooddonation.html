@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #response {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Donation</h1>
+        <form id="bloodDonationForm">
+            <label for="bloodStockID">Blood Stock ID:</label>
+            <input type="number" id="bloodStockID" name="bloodStockID" required>
+            <button type="submit">Donate Blood</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script>
+        document.getElementById('bloodDonationForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const bloodStockID = document.getElementById('bloodStockID').value;
+            const recipientID = localStorage.getItem('recipientID');
+            
+            if (!recipientID) {
+                alert('Recipient ID not found in local storage.');
+                return;
+            }
+
+            const requestBody = {
+                bloodStockID: parseInt(bloodStockID),
+                recipientID: parseInt(recipientID)
+            };
+
+            try {
+                const response = await fetch('http://localhost:5190/api/BloodDonation/AddBloodDonation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (response.ok) {
+                    const responseData = await response.json();
+                    document.getElementById('response').innerHTML = `
+                        <p>Donation successful!</p>
+                        <p>Blood Donation ID: ${responseData.bloodDonationID}</p>
+                        <p>Recipient ID: ${responseData.recipientID}</p>
+                        <p>Blood Stock ID: ${responseData.bloodStockID}</p>
+                        <p>Donation Date: ${responseData.donationDate}</p>
+                        <p>Blood Type: ${responseData.bloodType}</p>
+                    `;
+                } else {
+                    const errorData = await response.json();
+                    document.getElementById('response').innerHTML = `<p>Error: ${errorData.message}</p>`;
+                }
+            } catch (error) {
+                document.getElementById('response').innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>

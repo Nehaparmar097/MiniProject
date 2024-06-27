@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipient Details</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mb-4">Add Recipient Details</h2>
+        <form id="recipientForm">
+            <div class="form-group">
+                <label for="ageInput">Age</label>
+                <input type="number" class="form-control" id="ageInput" placeholder="Enter age" required>
+            </div>
+            <div class="form-group">
+                <label for="bloodTypeInput">Required Blood Type</label>
+                <input type="text" class="form-control" id="bloodTypeInput" placeholder="Enter blood type (e.g., A+)" required>
+            </div>
+            <div class="form-group">
+                <label for="bloodDateInput">Blood Required Date</label>
+                <input type="datetime-local" class="form-control" id="bloodDateInput" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const recipientForm = document.getElementById('recipientForm');
+
+            recipientForm.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                // Retrieve user ID from local storage
+                const userID = localStorage.getItem('userID');
+                if (!userID) {
+                    alert("User ID is not available in local storage.");
+                    return;
+                }
+
+                // Retrieve form inputs
+                const age = document.getElementById('ageInput').value.trim();
+                const requiredBloodType = document.getElementById('bloodTypeInput').value.trim().toUpperCase();
+                const bloodRequiredDate = document.getElementById('bloodDateInput').value.trim();
+
+                // Validate inputs
+                if (!age || !requiredBloodType || !bloodRequiredDate) {
+                    alert("All fields are required!");
+                    return;
+                }
+
+                // Construct request body
+                const requestBody = {
+                    userID: parseInt(userID),
+                    age: parseInt(age),
+                    requiredBloodType: requiredBloodType,
+                    bloodRequiredDate: new Date(bloodRequiredDate).toISOString()
+                };
+
+                // Send data to API
+                fetch('http://localhost:5190/api/Recipient/AddRecipientDetails', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestBody)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        return response.json().then(err => {
+                            throw new Error(err.title || 'Failed to add recipient details');
+                        });
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Successfully added recipient
+                    console.log("Recipient added successfully:", data);
+
+                    // Update local storage with the new recipientID
+                    localStorage.setItem('recipientID', data.recipientID);
+
+                    alert(`New Recipient ID: ${data.recipientID} stored successfully.`);
+                })
+                .catch(error => {
+                    console.error("Error adding recipient:", error);
+                    alert("An error occurred while adding recipient.");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

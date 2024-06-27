@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Blood Availability</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const apiUrl = 'http://localhost:5190/api/BloodStock/';
+
+            // Function to handle blood search based on selected option
+            function searchBlood() {
+                const searchOption = document.getElementById('searchOption').value;
+                let url = '';
+
+                switch (searchOption) {
+                    case 'city':
+                        const city = document.getElementById('city').value;
+                        url = `${apiUrl}ByCity?city=${encodeURIComponent(city)}`;
+                        break;
+                    case 'state':
+                        const state = document.getElementById('state').value;
+                        url = `${apiUrl}ByState?state=${encodeURIComponent(state)}`;
+                        break;
+                    case 'hospital':
+                        const hospital = document.getElementById('hospital').value;
+                        url = `${apiUrl}ByHospital?hospital=${encodeURIComponent(hospital)}`;
+                        break;
+                    case 'availability':
+                        url = `${apiUrl}Available`;
+                        break;
+                    default:
+                        return;
+                }
+
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        displayBloodResults(data);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('An error occurred while fetching data. Please try again.');
+                    });
+            }
+
+            // Function to display blood search results in a table
+            function displayBloodResults(data) {
+                let tableHtml = '<table class="table table-bordered"><thead><tr><th>ID</th><th>Blood Type</th><th>Status</th><th>Hospital Name</th><th>City</th><th>State</th></tr></thead><tbody>';
+
+                data.forEach(item => {
+                    tableHtml += `<tr><td>${item.id}</td><td>${item.bloodType}</td><td>${item.status}</td><td>${item.hospitalName}</td><td>${item.city}</td><td>${item.state}</td></tr>`;
+                });
+
+                tableHtml += '</tbody></table>';
+                document.getElementById('bloodResults').innerHTML = tableHtml;
+            }
+
+            // Event listener for search button click
+            document.getElementById('searchButton').addEventListener('click', function(event) {
+                event.preventDefault();
+                searchBlood();
+            });
+
+            // Event listener for changing search option
+            document.getElementById('searchOption').addEventListener('change', function() {
+                const searchOption = this.value;
+                toggleInputFields(searchOption);
+            });
+
+            // Function to toggle visibility of input fields based on search option
+            function toggleInputFields(searchOption) {
+                document.getElementById('cityInput').style.display = 'none';
+                document.getElementById('stateInput').style.display = 'none';
+                document.getElementById('hospitalInput').style.display = 'none';
+
+                switch (searchOption) {
+                    case 'city':
+                        document.getElementById('cityInput').style.display = 'block';
+                        break;
+                    case 'state':
+                        document.getElementById('stateInput').style.display = 'block';
+                        break;
+                    case 'hospital':
+                        document.getElementById('hospitalInput').style.display = 'block';
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Search Blood Availability</h2>
+        <div class="form-group">
+            <label for="searchOption">Search By:</label>
+            <select id="searchOption" class="form-control">
+                <option value="city">City Name</option>
+                <option value="state">State Name</option>
+                <option value="hospital">Hospital Name</option>
+                <option value="availability">Availability</option>
+            </select>
+        </div>
+
+        <!-- City Name Search -->
+        <div class="form-group" id="cityInput" style="display: none;">
+            <label for="city">City Name:</label>
+            <input type="text" class="form-control" id="city">
+        </div>
+
+        <!-- State Name Search -->
+        <div class="form-group" id="stateInput" style="display: none;">
+            <label for="state">State Name:</label>
+            <input type="text" class="form-control" id="state">
+        </div>
+
+        <!-- Hospital Name Search -->
+        <div class="form-group" id="hospitalInput" style="display: none;">
+            <label for="hospital">Hospital Name:</label>
+            <input type="text" class="form-control" id="hospital">
+        </div>
+
+        <!-- Search Button -->
+        <button id="searchButton" class="btn btn-primary">Search Blood</button>
+
+        <!-- Blood Results Table -->
+        <div class="table-container" id="bloodResults">
+            <!-- Blood search results will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Popper.js, Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background: #000;
+        }
+        .video-container video {
+            height: 80%;
+            width: 80%;
+            border: 5px solid #8B0000;
+            background: #fff;
+        }
+        .header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header .btn-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .header .btn-container a {
+            margin-left: 10px;
+        }
+        #features .col-md-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #features img {
+            width: 100px;
+            height: 100px;
+        }
+        #features h3 {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <h1>Blood Donation App</h1>
+    <div class="btn-container">
+        <a href="#register" id="registerButton" class="btn btn-light">Register</a>
+        <a href="#login" id="loginButton" class="btn btn-light">Login</a>
+    </div>
+</header>
+
+<div class="video-container">
+    <video class="vv" autoplay muted loop>
+        <source src="blood.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<section id="features" class="py-5 text-center">
+    <div class="container">
+        <h2>Why Donate Blood?</h2>
+        <p class="lead">Your donation can save multiple lives. Here are some benefits:</p>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/savelife.png" alt="Save Lives" class="img-fluid rounded-circle mb-3">
+                <h3>Save Lives</h3>
+                <p>Each donation can help up to three people in need.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/BloodDonate.jpg" alt="Community Support" class="img-fluid rounded-circle mb-3">
+                <h3>Community Support</h3>
+                <p>Join a network of like-minded individuals who care.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/image.png" alt="Health Benefits" class="img-fluid rounded-circle mb-3">
+                <h3>Health Benefits</h3>
+                <p>Regular donations can have positive health benefits.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cta" class="bg-light py-5 text-center">
+    <div class="container">
+        <h2>Ready to Donate?</h2>
+        <p>Sign up today to become a part of our life-saving community.</p>
+        <a href="allpages/register.html" class="btn btn-danger">Register Now</a>
+        <a href="allpages/login.html" class="btn btn-secondary">Login</a>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Blood Donation App. All rights reserved.</p>
+</footer>
+
+<script>
+    document.getElementById('registerButton').addEventListener('click', function() {
+        window.location.href = 'allpages/register.html';
+    });
+
+    document.getElementById('loginButton').addEventListener('click', function() {
+        window.location.href = 'allpages/login.html';
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

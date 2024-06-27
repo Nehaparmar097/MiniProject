@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Recipient Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin-bottom: 10px;
+        }
+        .message {
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const recipientID = localStorage.getItem('recipientID'); // Retrieve recipientID from local storage
+
+            if (!recipientID) {
+                alert("Recipient ID not found. Please login again.");
+                window.location.href = './login.html'; // Redirect to login if recipientID not found
+                return;
+            }
+
+            document.getElementById('updateAgeForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                const age = document.getElementById('age').value;
+
+                fetch(`http://localhost:5190/api/Recipient/UpdateAge/${recipientID}?age=${age}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
+                    }
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('updateAgeMessage').innerText = 'Age updated successfully!';
+                    document.getElementById('updateAgeMessage').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('updateAgeMessage').innerText = 'An error occurred, please try again.';
+                    document.getElementById('updateAgeMessage').style.display = 'block';
+                });
+            });
+
+            document.getElementById('updateBloodTypeForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                const requiredBloodType = document.getElementById('requiredBloodType').value;
+
+                fetch(`http://localhost:5190/api/Recipient/UpdateRequiredBloodType/${recipientID}?requiredBloodType=${encodeURIComponent(requiredBloodType)}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
+                    }
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('updateBloodTypeMessage').innerText = 'Required blood type updated successfully!';
+                    document.getElementById('updateBloodTypeMessage').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('updateBloodTypeMessage').innerText = 'An error occurred, please try again.';
+                    document.getElementById('updateBloodTypeMessage').style.display = 'block';
+                });
+            });
+
+            document.getElementById('updateBloodDateForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                const bloodRequiredDate = document.getElementById('bloodRequiredDate').value;
+
+                fetch(`http://localhost:5190/api/Recipient/UpdateBloodRequiredDate/${recipientID}?bloodRequiredDate=${bloodRequiredDate}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
+                    }
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('updateBloodDateMessage').innerText = 'Blood required date updated successfully!';
+                    document.getElementById('updateBloodDateMessage').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('updateBloodDateMessage').innerText = 'An error occurred, please try again.';
+                    document.getElementById('updateBloodDateMessage').style.display = 'block';
+                });
+            });
+
+            document.getElementById('updateRequirementBtn').addEventListener('click', function () {
+                document.getElementById('updateOptions').style.display = 'block';
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Update Recipient Details</h2>
+        <button type="button" class="btn btn-primary" id="updateRequirementBtn">Update Requirement</button>
+        <div id="updateOptions" style="display: none;">
+            <button type="button" class="btn btn-secondary" onclick="document.getElementById('updateAgeForm').style.display='block';">Update Age</button>
+            <button type="button" class="btn btn-secondary" onclick="document.getElementById('updateBloodTypeForm').style.display='block';">Update Required Blood Type</button>
+            <button type="button" class="btn btn-secondary" onclick="document.getElementById('updateBloodDateForm').style.display='block';">Update Required Blood Date</button>
+        </div>
+
+        <!-- Update Age Form -->
+        <form id="updateAgeForm" style="display: none;">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Update Age</button>
+        </form>
+        <div id="updateAgeMessage" class="alert alert-success message"></div>
+
+        <!-- Update Required Blood Type Form -->
+        <form id="updateBloodTypeForm" style="display: none;">
+            <div class="form-group">
+                <label for="requiredBloodType">Required Blood Type:</label>
+                <input type="text" class="form-control" id="requiredBloodType" name="requiredBloodType" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Update Blood Type</button>
+        </form>
+        <div id="updateBloodTypeMessage" class="alert alert-success message"></div>
+
+        <!-- Update Required Blood Date Form -->
+        <form id="updateBloodDateForm" style="display: none;">
+            <div class="form-group">
+                <label for="bloodRequiredDate">Blood Required Date:</label>
+                <input type="date" class="form-control" id="bloodRequiredDate" name="bloodRequiredDate" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Update Blood Date</button>
+        </form>
+        <div id="updateBloodDateMessage" class="alert alert-success message"></div>
+    </div>
+</body>
+</html>

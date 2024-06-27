@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    margin-top: 50px;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-header {
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: #d9534f;
+    color: #fff;
+}
+.btn-custom:hover {
+    background-color: #c9302c;
+}
