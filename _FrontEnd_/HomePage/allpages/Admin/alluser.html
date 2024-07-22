@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users Management</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8d7da;
+      margin: 0;
+      padding: 20px;
+    }
+    table {
+      background-color: white;
+      box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+    }
+    th {
+      background-color: #f8d7da;
+      color: #d9534f; /* Red color */
+    }
+    .navbar-light {
+      background-color: #d9534f; /* Light dark shade of red */
+    }
+    .navbar-light .navbar-brand,
+    .navbar-light .nav-link {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Administration</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../Admin/adminManagment.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2 class="text-center">Users Management</h2>
+      <div>
+        <button class="btn btn-primary mr-2" id="sortButton">Sort</button>
+        <button class="btn btn-secondary" id="filterButton">Filter</button>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>User ID</th>
+            <th>Email</th>
+            <th>Name</th>
+            <th>Contact Number</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody id="userTableBody">
+          <!-- Users will be inserted here by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+    <button class="btn btn-danger" id="deleteButton">Delete User</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    let users = [];
+    let filteredUsers = [];
+
+    document.addEventListener('DOMContentLoaded', function() {
+      fetchUsers();
+      
+      document.getElementById('sortButton').addEventListener('click', promptSortOption);
+      document.getElementById('filterButton').addEventListener('click', promptFilterOption);
+      document.getElementById('deleteButton').addEventListener('click', confirmDeleteUser);
+    });
+
+    function fetchUsers() {
+      axios.get('http://localhost:5190/api/User/GetAllUsers')
+        .then(response => {
+          users = response.data;
+          filteredUsers = [...users];
+          renderUsers(filteredUsers);
+        })
+        .catch(error => {
+          console.error('There was an error fetching the users!', error);
+        });
+    }
+
+    function renderUsers(users) {
+      const tableBody = document.getElementById('userTableBody');
+      tableBody.innerHTML = '';
+      users.forEach(user => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td class="user-id">${user.userID}</td>
+          <td>${user.email}</td>
+          <td>${user.name}</td>
+          <td>${user.contactNumber}</td>
+          <td>${user.role}</td>
+        `;
+        row.querySelector('.user-id').addEventListener('click', () => {
+          localStorage.setItem('deleteUserId', user.userID);
+          alert(`User ID ${user.userID} selected for deletion`);
+        });
+        tableBody.appendChild(row);
+      });
+    }
+
+    function promptSortOption() {
+      const sortOption = prompt('Sort by: "name" or "email"');
+      if (sortOption === 'name' || sortOption === 'email') {
+        sortUsers(sortOption);
+      } else {
+        alert('Invalid sort option. Please enter "name" or "email".');
+      }
+    }
+
+    function sortUsers(sortBy) {
+      if (sortBy === 'name') {
+        filteredUsers.sort((a, b) => a.name.localeCompare(b.name));
+      } else if (sortBy === 'email') {
+        filteredUsers.sort((a, b) => a.email.localeCompare(b.email));
+      }
+      renderUsers(filteredUsers);
+    }
+
+    function promptFilterOption() {
+      const filterOption = prompt('Filter by: "donor" or "recipient"');
+      if (filterOption === 'donor' || filterOption === 'recipient') {
+        filterUsers(filterOption);
+      } else {
+        alert('Invalid filter option. Please enter "donor" or "recipient".');
+      }
+    }
+
+    function filterUsers(filterBy) {
+      if (filterBy === 'donor') {
+        filteredUsers = users.filter(user => user.role === 'Donor');
+      } else if (filterBy === 'recipient') {
+        filteredUsers = users.filter(user => user.role === 'Recipient');
+      } else {
+        filteredUsers = [...users];
+      }
+      renderUsers(filteredUsers);
+    }
+
+    function confirmDeleteUser() {
+      const deleteUserId = localStorage.getItem('deleteUserId');
+      if (deleteUserId) {
+        const adminPassword = prompt('Enter administrator password to confirm deletion:');
+        if (adminPassword === 'adminPassword') { // Replace 'adminPassword' with the actual admin password
+          deleteUser(deleteUserId);
+        } else {
+          alert('Incorrect password. Deletion cancelled.');
+        }
+      } else {
+        alert('No user ID selected for deletion');
+      }
+    }
+
+    function deleteUser(userId) {
+      axios.delete(`http://localhost:5190/api/User/DeleteUser/${userId}`)
+        .then(() => {
+          alert('User deleted successfully');
+          fetchUsers();
+        })
+        .catch(error => {
+          console.error('There was an error deleting the user!', error);
+        });
+    }
+  </script>
+</body>
+</html>

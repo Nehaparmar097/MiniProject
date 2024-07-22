@@ -1,0 +1,224 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Stock by Donor</title>
+  
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Blood Stock by Donor</h1>
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Stock ID</th>
+                    <th>Donor ID</th>
+                    <th>Blood Group</th>
+                    <th>Volume (ml)</th>
+                    <th>Collection Date</th>
+                </tr>
+            </thead>
+            <tbody id="blood-stock-list">
+                
+            </tbody>
+        </table>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script>
+        // Function to fetch blood stock data
+        function fetchBloodStockData() {
+            // Get the donor ID from local storage
+            const donorId = localStorage.getItem('donorId');
+
+            if (!donorId) {
+                alert('Donor ID not found in local storage.');
+                return;
+            }
+
+            // Define the API endpoint
+            const apiEndpoint = `http://localhost:5190/api/BloodStock/ByDonorId?donorId=${donorId}`;
+
+            // Fetch data from the API using Axios
+            axios.get(apiEndpoint)
+                .then(response => {
+                    const bloodStock = response.data;
+                    const tableBody = document.getElementById('blood-stock-list');
+
+                    // Clear existing rows
+                    tableBody.innerHTML = '';
+
+                    // Populate the table with data
+                    bloodStock.forEach(stock => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${stock.stockID}</td>
+                            <td>${stock.donorID}</td>
+                            <td>${stock.bloodGroup}</td>
+                            <td>${stock.volume}</td>
+                            <td>${new Date(stock.collectionDate).toLocaleString()}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching blood stock data:', error);
+                    alert('Failed to fetch blood stock data. Please try again later.');
+                });
+        }
+
+        // Fetch blood stock data when the document is loaded
+        document.addEventListener('DOMContentLoaded', fetchBloodStockData);
+
+        // Example: Set the donor ID in local storage (this is for demonstration purposes)
+        localStorage.setItem('donorId', '5'); // Replace '5' with your actual logic to set the donorId
+    </script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Stock for Donor</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .blood-stock-table {
+      margin-top: 20px;
+    }
+    /* Navbar styles */
+    .navbar {
+      background-color: #ffcccc; /* Light red background */
+    }
+    .navbar-brand {
+      color: #8b0000; /* Dark red text */
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link {
+      color: #8b0000; /* Dark red text for links */
+    }
+    .navbar-nav .nav-link:hover {
+      color: #b30000; /* Lighter red on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Donor Management</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./DonorManagement.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1 class="my-4">Blood Stock for Donor</h1>
+    <div id="bloodStockTable" class="blood-stock-table">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Blood Type</th>
+            <th>Status</th>
+            <th>Hospital</th>
+            <th>City</th>
+            <th>State</th>
+          </tr>
+        </thead>
+        <tbody id="bloodStockTableBody">
+          <!-- Blood stock items will be inserted here dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (Popper.js, Bootstrap JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const userId = localStorage.getItem('userID'); // Retrieve userId from localStorage
+      const apiUrl = `http://localhost:5190/api/BloodStock/GetAllDonorByUserId/${userId}`;
+
+      fetch(apiUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          const bloodStockTableBody = document.getElementById('bloodStockTableBody');
+
+          data.forEach(stock => {
+            const row = `
+              <tr>
+                <td>${stock.id}</td>
+                <td>${stock.bloodType}</td>
+                <td>${stock.status}</td>
+                <td>${stock.hospitalName}</td>
+                <td>${stock.city}</td>
+                <td>${stock.state}</td>
+              </tr>
+            `;
+            bloodStockTableBody.innerHTML += row;
+          });
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          // Handle error gracefully, e.g., display a message to the user
+        });
+    });
+  </script>
+</body>
+</html>
+

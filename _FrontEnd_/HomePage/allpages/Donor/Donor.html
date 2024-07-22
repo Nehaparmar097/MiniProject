@@ -187,13 +187,15 @@ document.addEventListener('DOMContentLoaded', function() {
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f4f4f4;
+            background-color: #db7f7f;
         }
         .container {
             background-color: #fff;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
         }
         h1 {
             margin-bottom: 20px;
@@ -208,9 +210,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </head>
 <body>
     <div class="container">
-        <h1>Donor Details</h1>
+        <h1>Hey Donor!</h1>
+        <p>Can you please enter your age?</p>
         <div class="mb-3">
-            <label for="age">Enter Your Age:</label>
+            <label for="age" class="form-label">Enter Your Age:</label>
             <input class="form-control" type="number" id="age" required />
         </div>
         <div class="mb-3">

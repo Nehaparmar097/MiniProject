@@ -1,204 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Blood Donation App</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .btn {
-            padding: 10px 20px;
-            margin-bottom: 10px;
-        }
-        .message {
-            margin-top: 20px;
-            display: none;
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const donorID = localStorage.getItem('userID'); // Retrieve donorID from local storage
-
-            if (!donorID) {
-                alert("Donor ID not found. Please login again.");
-                window.location.href = './login.html'; // Redirect to login if donorID not found
-                return;
-            }
-
-            document.getElementById('donateBloodForm').addEventListener('submit', function (event) {
-                event.preventDefault();
-                const bloodType = document.getElementById('bloodType').value;
-                const city = document.getElementById('city').value;
-                const state = document.getElementById('state').value;
-                const hospitalName = document.getElementById('hospitalName').value;
-
-                fetch('http://localhost:5190/api/BloodStock/AddBloodStock', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
-                    },
-                    body: JSON.stringify({
-                        bloodType: bloodType,
-                        city: city,
-                        state: state,
-                        hospitalName: hospitalName,
-                        donorID: donorID
-                    })
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    document.getElementById('donateBloodMessage').innerText = 'Blood added to stock successfully!';
-                    document.getElementById('donateBloodMessage').style.display = 'block';
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('donateBloodMessage').innerText = 'An error occurred, please try again.';
-                    document.getElementById('donateBloodMessage').style.display = 'block';
-                });
-            });
-
-            document.getElementById('updateDonorForm').addEventListener('submit', function (event) {
-                event.preventDefault();
-                const email = document.getElementById('email').value;
-                const firstName = document.getElementById('firstName').value;
-                const lastName = document.getElementById('lastName').value;
-                const contactNumber = document.getElementById('contactNumber').value;
-                const password = document.getElementById('password').value;
-
-                fetch(`http://localhost:5190/api/User/UpdateUser/${donorID}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
-                    },
-                    body: JSON.stringify({
-                        userID: donorID,
-                        email: email,
-                        firstName: firstName,
-                        lastName: lastName,
-                        contactNumber: contactNumber,
-                        userType: 'Donor',
-                        password: password
-                    })
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    document.getElementById('updateDonorMessage').innerText = 'Donor details updated successfully!';
-                    document.getElementById('updateDonorMessage').style.display = 'block';
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('updateDonorMessage').innerText = 'An error occurred, please try again.';
-                    document.getElementById('updateDonorMessage').style.display = 'block';
-                });
-            });
-
-            document.getElementById('myMiniBloodBankBtn').addEventListener('click', function () {
-                fetch(`http://localhost:5190/api/BloodStock/ByDonorId?donorId=${donorID}`, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + localStorage.getItem('token') // Add auth token if required
-                    }
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    document.getElementById('myMiniBloodBankMessage').innerText = 'Blood donated successfully retrieved!';
-                    document.getElementById('myMiniBloodBankMessage').style.display = 'block';
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('myMiniBloodBankMessage').innerText = 'An error occurred, please try again.';
-                    document.getElementById('myMiniBloodBankMessage').style.display = 'block';
-                });
-            });
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donor Management</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      padding-top: 70px; /* Adding space for navbar */
+      padding-bottom: 50px; /* Adding space for fixed-bottom navbar */
+      background-image: url('./imagess/donoe.jpg');
+      background-size: 100%; /* Adjust size of background image */
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-color: #f8f9fa; /* Fallback color */
+    }
+    .navbar {
+      background-color: #ffcccc; /* Light red */
+    }
+    .btn-container {
+      margin-top: 20px;
+      padding-left: 20px; /* Adjust padding for left alignment */
+    }
+    .btn-container a {
+      display: block;
+      margin-bottom: 10px;
+      width: fit-content; /* Ensure buttons only take necessary width */
+    }
+  </style>
 </head>
 <body>
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-        <h2>Blood Donation App</h2>
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary" onclick="document.getElementById('donateBloodForm').style.display='block';">Blood Donation</button>
-            <button type="button" class="btn btn-secondary" onclick="document.getElementById('updateDonorForm').style.display='block';">Update Donor Details</button>
-            <button type="button" class="btn btn-success" id="myMiniBloodBankBtn">My Mini Blood Bank</button>
-        </div>
-
-        <!-- Blood Donation Form -->
-        <form id="donateBloodForm" style="display: none;">
-            <div class="form-group">
-                <label for="bloodType">Blood Type:</label>
-                <input type="text" class="form-control" id="bloodType" name="bloodType" required>
-            </div>
-            <div class="form-group">
-                <label for="city">City:</label>
-                <input type="text" class="form-control" id="city" name="city" required>
-            </div>
-            <div class="form-group">
-                <label for="state">State:</label>
-                <input type="text" class="form-control" id="state" name="state" required>
-            </div>
-            <div class="form-group">
-                <label for="hospitalName">Hospital Name:</label>
-                <input type="text" class="form-control" id="hospitalName" name="hospitalName" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Add Blood Stock</button>
-        </form>
-        <div id="donateBloodMessage" class="alert alert-success message"></div>
-
-        <!-- Update Donor Details Form -->
-        <form id="updateDonorForm" style="display: none;">
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" class="form-control" id="firstName" name="firstName" required>
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" name="lastName" required>
-            </div>
-            <div class="form-group">
-                <label for="contactNumber">Contact Number:</label>
-                <input type="text" class="form-control" id="contactNumber" name="contactNumber" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" class="form-control" id="password" name="password" required>
-            </div>
-            <button type="submit" class="btn btn-secondary">Update Details</button>
-        </form>
-        <div id="updateDonorMessage" class="alert alert-success message"></div>
-
-        <!-- My Mini Blood Bank Message -->
-        <div id="myMiniBloodBankMessage" class="alert alert-success message"></div>
+      <a class="navbar-brand" href="#">Donor Management</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+ <br><br><br><br>
+  <!-- Main content -->
+  <div class="container mt-4">
+    <!-- Button group for navigation -->
+    <div class="btn-container">
+      <a href="addBloodtoStcok.html" class="btn btn-danger">Donate Blood</a>
+      <a href="getallblooddonatedbydonor.html" class="btn btn-danger">Get All Blood Donations</a>
+      <a href="deleteblood.html" class="btn btn-danger">Delete Blood From Blood Bank</a>
+      <a href="updateblod.html" class="btn btn-danger">Update Donated Blood Details</a>
+      <a href="updateuserdetails.html" class="btn btn-danger">Update Donor Details</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (Popper.js, Bootstrap JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

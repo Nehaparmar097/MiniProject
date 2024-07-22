@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donation Records</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <style>
+    body {
+      background-color: #f8d7da; /* Light red background */
+      padding: 20px;
+    }
+    .table-container {
+      margin-top: 50px;
+    }
+    .table-container table {
+      width: 100%;
+      background-color: #fff; /* White background for the table */
+      border-radius: 8px;
+      box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+    }
+    .table-container th, .table-container td {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .blood-type {
+      font-weight: bold;
+      color: #dc3545; /* Red color */
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Administration</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../Admin/adminManagment.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="container table-container">
+    <h2 class="text-center">Blood Donation Records</h2>
+    <table class="table table-striped">
+      <thead class="thead-light">
+        <tr>
+          <th>#</th>
+          <th>Blood Donation ID</th>
+          <th>Blood Stock ID</th>
+          <th>Recipient ID</th>
+          <th>Donation Date</th>
+          <th>Blood Type</th>
+        </tr>
+      </thead>
+      <tbody id="bloodDonationTableBody">
+        <!-- Blood donation records will be inserted here by JavaScript -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Axios for HTTP requests -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      axios.get('http://localhost:5190/api/BloodDonation/GetAllBloodDonation')
+        .then(response => {
+          const bloodDonations = response.data;
+          const tableBody = document.getElementById('bloodDonationTableBody');
+
+          bloodDonations.forEach((donation, index) => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${index + 1}</td>
+              <td>${donation.bloodDonationID}</td>
+              <td>${donation.bloodStockID}</td>
+              <td>${donation.recipientID}</td>
+              <td>${new Date(donation.donationDate).toLocaleString()}</td>
+              <td class="blood-type">${donation.bloodType}</td>
+            `;
+            tableBody.appendChild(row);
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching blood donation records:', error);
+        });
+    });
+  </script>
+</body>
+</html>

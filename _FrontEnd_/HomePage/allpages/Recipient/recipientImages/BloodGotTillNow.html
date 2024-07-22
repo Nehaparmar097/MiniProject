@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipient List</title>
+    <title>Recieved Bloods</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -41,24 +41,6 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="RecipientManagement.html">Recipient List</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./Recipient.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../../index.html">Logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     <div class="container">
         <h1 class="text-center">Recipients List</h1>
         <table class="table table-striped mt-3">
@@ -75,7 +57,7 @@
                 <!-- Data will be inserted here by JavaScript -->
             </tbody>
         </table>
-     
+        <button class="btn btn-success" onclick="donateBlood()">Donate Blood</button>
     </div>
 
     <!-- Custom JavaScript -->
@@ -83,7 +65,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Get the user ID from local storage or default to 24
-            const userId = localStorage.getItem('userID');
+            const userId = localStorage.getItem('userId') || 24;
 
             // Define the API endpoint to fetch recipients not in blood donations
             const apiEndpoint = `http://localhost:5190/api/Recipient/${userId}/in-blood-donations`;
@@ -117,7 +99,7 @@
         });
 
         // Example: Set the user ID in local storage (this is for demonstration purposes)
-      //  localStorage.setItem('userId', '24'); // Replace '24' with your actual logic to set the userId
+        localStorage.setItem('userId', '24'); // Replace '24' with your actual logic to set the userId
 
         function donateBlood() {
             // Add your logic to donate blood here (e.g., API call)

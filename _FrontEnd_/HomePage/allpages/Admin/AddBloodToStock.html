@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BAdd Blood TO BloodBank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding-top: 70px; /* Adding space for fixed top navbar */
+            padding-bottom: 20px; /* Adding padding to bottom */
+            background-color: #f8d7da; /* Light red background */
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff; /* White background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+        }
+        .message {
+            margin-top: 20px;
+            display: none;
+        }
+        .navbar {
+            background-color: #ffcccc; /* Light red navbar background */
+            width: 100%; /* Full width navbar */
+        }
+        .btn-primary {
+            background-color: #dc3545; /* Slightly darker red for buttons */
+            border-color: #dc3545; /* Matching border color */
+        }
+        .btn-primary:hover {
+            background-color: #c82333; /* Darker shade on hover */
+            border-color: #bd2130; /* Darker border on hover */
+        }
+        .form-control {
+            border-color: #dc3545; /* Red border for form inputs */
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const donorID = 4; // Retrieve donorID from local storage
+
+            if (!donorID) {
+                alert("Donor ID not found. Please login again.");
+                window.location.href = './login.html'; // Redirect to login if donorID not found
+                return;
+            }
+
+            document.getElementById('donateBloodForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                const bloodType = document.getElementById('bloodType').value;
+                const city = document.getElementById('city').value;
+                const state = document.getElementById('state').value;
+                const hospitalName = document.getElementById('hospitalName').value;
+
+                fetch('http://localhost:5190/api/BloodStock/AddBloodStock', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        bloodType: bloodType,
+                        city: city,
+                        state: state,
+                        hospitalName: hospitalName,
+                        donorID: donorID
+                    })
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('donateBloodMessage').innerText = 'Blood added to stock successfully!';
+                    document.getElementById('donateBloodMessage').classList.remove('alert-danger');
+                    document.getElementById('donateBloodMessage').classList.add('alert-success');
+                    document.getElementById('donateBloodMessage').style.display = 'block';
+
+                    // Show success message for 3 seconds and then redirect
+                    
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('donateBloodMessage').innerText = 'An error occurred, please try again.';
+                    document.getElementById('donateBloodMessage').classList.remove('alert-success');
+                    document.getElementById('donateBloodMessage').classList.add('alert-danger');
+                    document.getElementById('donateBloodMessage').style.display = 'block';
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Add Blood To Blood Bank</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./adminManagment.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Add Blood Stock</h2>
+        <form id="donateBloodForm">
+            <div class="form-group">
+                <label for="bloodType">Blood Type:</label>
+                <select class="form-control" id="bloodType" name="bloodType" required>
+                    <option value="">Select Blood Type</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" class="form-control" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" class="form-control" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="hospitalName">Hospital Name:</label>
+                <input type="text" class="form-control" id="hospitalName" name="hospitalName" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Blood Stock</button>
+        </form>
+        <div id="donateBloodMessage" class="alert message"></div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Popper.js, Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
